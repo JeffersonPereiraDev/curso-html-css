@@ -1,14 +1,12 @@
-#div-titulo{
+.box{
     text-align: center;
     background-color: #3A4042;
     display: inline-block;
-    margin-top: 120px;
-    margin-left: 40px;
     padding: 40px 10px;
     box-shadow: 10px 10px 0 #000;
 }
 
-#div-titulo h1{
+.box h1{
     margin-bottom: 28px;
 }
 
