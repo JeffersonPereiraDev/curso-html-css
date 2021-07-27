@@ -4,12 +4,11 @@
     display: inline-block;
     margin-top: 120px;
     margin-left: 40px;
-    padding: 20px 0;
-    box-shadow: 5px 5px 0 #000;
+    padding: 40px 10px;
+    box-shadow: 10px 10px 0 #000;
 }
 
-#div-titulo h1,h2{
-    margin-left: 10px;
-    margin-right: 10px;
+#div-titulo h1{
+    margin-bottom: 28px;
 }
 
