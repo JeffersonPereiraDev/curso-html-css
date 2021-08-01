@@ -8,3 +8,7 @@
 .section .main-titulo{
     margin-bottom: 70px;
 }
+
+.section.-second{
+    background-color: #000;
+}
