@@ -1,4 +1,4 @@
-.button{
+.main-button{
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #fff;
@@ -10,7 +10,7 @@
     transition: .3s linear;
 }
 
-.button:hover{
+.main-button:hover{
     background-color: #fff;
     color: #778BEB;
 }
