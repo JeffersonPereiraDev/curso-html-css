@@ -9,6 +9,10 @@
     margin-bottom: 70px;
 }
 
-.section.-second{
+.section.-bgBlack{
     background-color: #000;
+}
+
+.section.-bdBack{
+    border-bottom: 10px solid #778BEB;
 }
