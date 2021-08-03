@@ -13,6 +13,14 @@
     background-color: #000;
 }
 
-.main-section.-bdBack{
+.main-section.-bdBlack{
     border-bottom: 10px solid #778BEB;
+}
+
+.main-section.-bgDarkBlue{
+    background-color: #303952;
+}
+
+.main-section.-bdDarkBlue{
+    border-bottom: 10px solid #000;
 }
