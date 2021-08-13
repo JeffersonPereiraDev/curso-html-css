@@ -5,3 +5,7 @@
     font-size: 30px;
     width: 100%;
 }
+
+.main-input.-textarea{
+    height: 320px;
+}
