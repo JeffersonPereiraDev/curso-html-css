@@ -8,14 +8,19 @@
     box-shadow: 5px 5px 0 #000;
     margin-right: 0;
     transition: .3s linear;
+    cursor: pointer;
 }
 
 .main-button:hover{
+    transform: scale(1.08);
     background-color: #fff;
     color: #778BEB;
 }
 
 .main-button.-full{
     width: 100%;
-    cursor: pointer;
+}
+
+.main-button.-full:hover{
+    transform: scale(1.01);
 }
