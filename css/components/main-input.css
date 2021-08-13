@@ -1,0 +1,7 @@
+.main-input{
+    box-sizing: border-box;
+    border: 5px solid #000;
+    height: 50px;
+    font-size: 30px;
+    width: 100%;
+}
