@@ -24,3 +24,8 @@
 .main-section.-bdDarkBlue{
     border-bottom: 10px solid #000;
 }
+
+.main-section.-bgGrey{
+    background-color: #3A4042;
+    border: none;
+}

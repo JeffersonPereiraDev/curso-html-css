@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carrousel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
-
+    <link rel="stylesheet" href="css/components/main-label.css">
 
 </head>
 <body>
@@ -198,12 +198,16 @@
 
 
         <form action= "">
-            <label for="get-nome">Nome:</label>
-            <input id="get-nome" type="text" name="name">
-            <label for="get-email">Email:</label>
+            <label class="main-label" for="get-name">Nome</label>
+            <input id="get-name" type="text" name="name">
+
+            <label class="main-label" for="get-email">Email</label>
             <input id="get-email" type="email" name= "email">
-            <label for="">Mensagem</label>
-            <input id="get-mensagem" type="text" name="menssagem">
+
+            <label class="main-label" for="menssage">Mensagem</label>
+            <textarea id="menssage"></textarea>
+
+            <button type="submit">Enviar</button>
         </form>
     </section>
 
