@@ -2,7 +2,7 @@
     box-sizing: border-box;
     background-image: url(../../assets/img/banner.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     border-bottom: 10px solid #000;
     padding-top: 120px;
     padding-left: 40px;
@@ -23,3 +23,22 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width: 990px){
+    .main-banner{
+        height: 700px;
+    }
+    .main-banner .navegation{
+        padding-right: 220px;
+    }
+}
+
+@media (max-width: 875px){
+    .main-banner{
+        height: 600px;
+    }
+    .main-banner .navegation{
+        padding-right: 300px;
+    }
+}
+

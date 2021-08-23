@@ -10,3 +10,26 @@
     margin-bottom: 28px;
 }
 
+@media (max-width: 990px){
+    .main-box{
+        width: 500px;
+    }
+    .main-box .main-title{
+        font-size: 28px;
+    }
+    .main-box .main-subtitle{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 850px){
+    .main-box{
+        width: 400px;
+    }
+    .main-box .main-title{
+        font-size: 23px;
+    }
+    .main-box .main-subtitle{
+        font-size: 21px;
+    }
+}
