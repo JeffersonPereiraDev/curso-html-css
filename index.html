@@ -28,7 +28,6 @@
     <link rel="stylesheet" href="css/components/main-text.css">
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
-    <link rel="stylesheet" href="css/components/main-carrousel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/main-label.css">
     <link rel="stylesheet" href="css/components/main-input.css">
@@ -90,14 +89,14 @@
                 <img class = "icon" src= "img/icon_tdd.png" alt= "logo tdd em pixel art">
                 <div class= "right">
                     <h3 class= "title">TDD</h3>
-                    <progress class="progress-bar" max="100" value="80">0%</progress>
+                    <progress class="progress-bar" max="100" value="80">80%</progress>
                 </div>
             </article>
             <article class= "skill-tec">
                 <img class = "icon" src= "img/icon_js.png" alt= "logo JavaScript em pixel art">
                 <div class= "right">
                     <h3 class= "title">JavaScript</h3>
-                    <progress class="progress-bar" max="100" value="60">60%</progress>
+                    <progress class="progress-bar" max="100" value="40">40%</progress>
                 </div>
             </article>
             <article class= "skill-tec">
@@ -111,7 +110,7 @@
                 <img class = "icon" src= "img/icon_react.png" alt= "logo React em pixel art">
                 <div class= "right">
                     <h3 class= "title">React</h3>
-                    <progress class="progress-bar" max="100" value="30">30%</progress>
+                    <progress class="progress-bar" max="100" value="20">20%</progress>
                 </div>
             </article>
             <article class= "skill-tec">
@@ -129,13 +128,13 @@
 
         <div class= "wrapper-project">
             <figure class= "card-project">
-                <img src="img/logo-firedlabs.png" alt="test">
+                <img class="img-project" src="img/logo-firedlabs.png" alt="test">
             </figure>
             <figure class= "card-project">
-                <img src="img/logo-firedlabs.png" alt="test">
+                <img class="img-project" src="img/logo-firedlabs.png" alt="test">
             </figure>
             <figure class= "card-project">
-                <img src="img/logo-firedlabs.png" alt="test">
+                <img class="img-project" src="img/logo-firedlabs.png" alt="test">
             </figure>
         </div>
     </section>
@@ -143,49 +142,6 @@
     <section class= "main-section -bgDarkBlue -bdDarkBlue">
             <h1 class= "main-title -second">Sobre</h1>
 
-            <section class= "main-carrousel">
-                <button class= "button-arrow -left"><span class= "content">voltar</span></button>
-                <div class="items">
-                    <div class="elements">
-                        <figure class="node-card">
-                            <figcaption class="title">2012</figcaption>
-                            <div class="logo">
-                                <img src="img/logo-locaweb.png" alt="logo da localweb">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card">
-                            <figcaption class="title">2014</figcaption>
-                            <div class="logo">
-                                <img src="img/logo-locaweb.png" alt="logo da localweb">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card">
-                            <figcaption class="title">2016</figcaption>
-                            <div class="logo">
-                                <img src="img/logo-locaweb.png" alt="logo da localweb">
-                            </div>
-                        </figure>
-
-                        <figure class="node-card">
-                            <figcaption class="title">2017</figcaption>
-                            <div class="logo">
-                                <img src="img/logo-locaweb.png" alt="logo da localweb">
-                            </div>
-                        </figure>
-                        
-                        <figure class="node-card">
-                            <figcaption class="title">2018</figcaption>
-                            <div class="logo">
-                                <img src="img/logo-locaweb.png" alt="logo da localweb">
-                            </div>
-                        </figure>
-                    </div>
-                </div>  
-
-                <button class= "button-arrow -right"><span class= "content">avançar</span></button>
-            </section>
         <p class= "main-text -description">
             Acadêmico de ciência da computação na universidade paulista (UNIP) e hoje com 19 anos eu passo o tempo estudando back-end/front-end. 
             No back-end eu utilizo java e python e no front-end React, HTML, CSS e JavaScript. Além disso, sempre estou buscando novas tecnologias para aprender, 
@@ -201,13 +157,13 @@
 
         <form class="main-form">
             <label class="main-label" for="get-name">Nome</label>
-            <input class= "main-input" id="get-name" type="text" name="name">
+            <input class= "main-input" id="get-name" type="text" name="name" required>
 
             <label class="main-label" for="get-email">Email</label>
-            <input class= "main-input" id="get-email" type="email" name= "email">
+            <input class= "main-input" id="get-email" type="email" name= "email" required>
 
             <label class="main-label" for="menssage">Mensagem</label>
-            <textarea class= "main-input -textarea" id="menssage"></textarea>
+            <textarea class= "main-input -textarea" id="menssage"></textarea required>
 
             <button class="main-button -full" type="submit">Enviar</button>
         </form>
